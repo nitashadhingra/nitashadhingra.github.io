@@ -1,0 +1,25 @@
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar{
+  padding: 20px;
+}
+
+.navbar-item { 
+  padding: 0 15px;
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  transition: 0.5s ease;
+}
+
+.navbar-item:hover {
+  color: #c7666c;
+  text-shadow: 0 0 10px #ffffff88;
+  transition: 0.5s ease;
+}

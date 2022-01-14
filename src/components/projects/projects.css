@@ -1,0 +1,168 @@
+#project-sec{
+  padding: 30px 64px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.heading{
+    font-weight: 200;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.subheading{
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.sec{
+    text-align: center;
+    margin-top: 0px;
+}
+  
+
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 100%;
+}
+.proj_card:hover .card__background {
+  transform: scale(1.05) translateZ(0);
+}
+.card-grid:hover > .proj_card:not(:hover) .card__background {
+  filter: brightness(0.6) saturate(0) contrast(1.2) blur(20px);
+}
+
+.proj_card{
+    list-style: none;
+    position: relative;
+    box-shadow:
+      #5e5d5d .3rem .3rem .5rem,
+      #a0a0a0 -.2rem -.2rem .5rem;
+    border-radius: 24px;
+}
+
+.proj_card:before{
+    content: '';
+    display: block;
+    padding-bottom: 130%;
+}
+
+
+#bg1{
+    background-image: url("./techstack/protege.jpg");
+}
+#bg2{
+    background-image: url("./techstack/medistat.jpg");
+}
+#bg3{
+    background-image: url("./techstack/gtc2.jpeg");
+}
+#bg4{
+    background-image: url("./techstack/waste.jpg");
+}
+#bg5{
+    background-image: url("./techstack/mov.png");
+}
+#bg6{
+    background-image: url("./techstack/climate.jpg");
+}
+#bg7{
+    background-image: url("./techstack/todo.jpeg");
+}
+
+
+.card__background {
+
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 24px;
+    filter: brightness(0.4) saturate(1.2) contrast(0.95);
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+}
+
+.card__content {
+    left: 0;
+    padding: 24px;
+    position: absolute;
+    top: 0;
+}
+
+.card__category {
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.card__heading {
+    color: whitesmoke;
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.2;
+    word-spacing: 100vw;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-align: left;
+}
+.card__subheading {
+    text-align: left;
+    color: whitesmoke;
+    text-shadow: 3px 3px 24px rgba(0,0,0,0.5);
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.techstack {
+    width: 230px;
+    display: inline-flex;
+    justify-content: center;
+}
+.tech {
+    border-radius: 8px;
+    max-height: 39px;
+    width: auto;
+    margin: 2px;
+    padding: 0px;
+}
+
+.oneline{
+    margin-top:140px;
+}
+.twoline{
+    margin-top:103px;
+}
+.threeline{
+    margin-top:67.5px;
+}
+  
+@media (max-width: 900px) {
+    .card-grid{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .card__category{
+        width: 50vw;
+    }
+    .proj_card:hover .card__background {
+        transform: scale(1.05) translateZ(0);
+    }
+}
