@@ -65,16 +65,16 @@ const About = () => {
                 </div>
             
                 <div className="hobbies">
-                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1100" className="material-icons">
+                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="900" className="material-icons">
                         <HiCode color="#c7666c" fontSize="25px" />
                     </span>
-                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1100" className="material-icons">
+                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1200" className="material-icons">
                         <BiCoffeeTogo color="#c7666c" fontSize="25px"/>
                     </span>
-                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1100" className="material-icons">
+                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500" className="material-icons">
                         <ImHeadphones color="#c7666c" fontSize="25px"/>
                     </span>
-                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1100" className="material-icons">
+                    <span data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1800" className="material-icons">
                         <TiCamera color="#c7666c" fontSize="25px"/>
                     </span>
                     

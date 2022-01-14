@@ -21,18 +21,21 @@
     "typescript": "^4.5.4",
     "web-vitals": "^2.1.2"
   },
-  "scripts": {
+  "scripts": { 
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+  "homepage": "http://nitashadhingra.github.io/",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

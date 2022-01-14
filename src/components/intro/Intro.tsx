@@ -30,7 +30,7 @@ const Intro = () => {
                 <div className="socials">
                     <hr></hr>
                     
-                    <div data-aos="zoom-in" data-aos-duration="1000">
+                    <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                         <a href="https://github.com/nitashadhingra" title="Github">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path className="fill" d="M17 13.5c0 4.142-2.502 4-6.645 4-4.142 0-8.355.142-8.355-4S7.858 7 12 7s5 2.358 5 6.5z"></path>
@@ -38,7 +38,7 @@ const Intro = () => {
                             </svg>
                         </a>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1300">
+                    <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1300">
                         <a href="https://www.linkedin.com/in/nitashadhingra/" title="Linkedin">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path className="fill" d="M17 14.5c0 4.142-2.502 4-6.645 4-4.142 0-8.355.142-8.355-4S7.858 8 12 8s5 2.358 5 6.5z"></path>
@@ -46,7 +46,7 @@ const Intro = () => {
                             </svg>
                         </a>
                         </div>
-                    <div data-aos="zoom-in" data-aos-duration="1600">
+                    <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1600">
                         <a href="https://twitter.com/nitassium" title="Twitter">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path className="fill" d="M17 13.5c0 4.142-2.502 4-6.645 4-4.142 0-8.355.142-8.355-4S7.858 7 12 7s5 2.358 5 6.5z"></path>
@@ -54,7 +54,7 @@ const Intro = () => {
                             </svg>
                         </a>
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="1900">
+                    <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1900">
                         <a href="mailto:nitashadhingra612@gmail.com" title="Email">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path className="fill" d="M17 13.5c0 4.142-2.502 4-6.645 4-4.142 0-8.355.142-8.355-4S7.858 7 12 7s5 2.358 5 6.5z"></path>

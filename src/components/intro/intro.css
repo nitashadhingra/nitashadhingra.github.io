@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    height: 80vh;
+    /* height: 80vh; */
+    /* overflow-x: hidden; */
 }
 
 .text {
@@ -28,10 +29,6 @@ hr{
     height:2px;
     border-width:0;
     background-color: #c7666c;
-}
-
-.socials div{
-    height: 5px;
 }
 
 .socialicon {
@@ -95,15 +92,9 @@ p{
 
 
 :root {
-    --primary-light: #b7b9bd;
-    --primary: #36353a;
-    --primary-dark: #0a0a0a;
-    
     --white: #FFFFFF;
     --greyLight-1: #f3f4f5;
     --greyLight-2: #e2e3e5;
-    --greyLight-3: #e3e4e7;
-    --greyDark: #c7c8ca;
 }
 
 .circle {
@@ -186,8 +177,10 @@ img{
 @media (max-width: 900px) {
 
     .intro{
+        height: auto;
         display: flex;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     p{
