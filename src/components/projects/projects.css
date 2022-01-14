@@ -156,6 +156,15 @@
 }
   
 @media (max-width: 900px) {
+    #project-sec{
+        padding: 10px 15px;
+    }
+    .proj_card:before{
+        padding-bottom: 100%;
+    }
+    .sec{
+        margin:0;
+    }
     .card-grid{
         grid-template-columns: repeat(1, 1fr); 
     }
