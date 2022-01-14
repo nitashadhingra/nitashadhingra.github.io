@@ -1,4 +1,4 @@
-My Portfolio with neomorphic elements made in React TS. 
+My portfolio with neomorphic elements made in React TS.🌻
 
 
 # Getting Started with Create React App
