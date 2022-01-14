@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0d5be2d.css",
+    "main.js": "/static/js/main.3255473a.js",
+    "static/media/protege.jpg": "/static/media/protege.19177b20e1a41557a401.jpg",
+    "static/media/me.png": "/static/media/me.bdcecab209d4a609bfb3.png",
+    "static/media/mov.png": "/static/media/mov.00b6e63e9793c98a8bde.png",
+    "static/media/gcp.png": "/static/media/gcp.0275d8579c47fc0d79e8.png",
+    "static/media/gtc2.jpeg": "/static/media/gtc2.bb2129c778db7285b005.jpeg",
+    "static/media/reactjs.png": "/static/media/reactjs.a3a163e377c97c110064.png",
+    "static/media/seaborn.png": "/static/media/seaborn.f464f98d0f14f77c23e5.png",
+    "static/media/waste.jpg": "/static/media/waste.c97409d9888a477991da.jpg",
+    "static/media/medistat.jpg": "/static/media/medistat.ed685ad82a7673f4a873.jpg",
+    "static/media/scikit.png": "/static/media/scikit.8dcd0f3319080663e876.png",
+    "static/media/js.jpeg": "/static/media/js.342e0144a8b2dfbb186b.jpeg",
+    "static/media/todo.jpeg": "/static/media/todo.6737ce588cf86b5c340a.jpeg",
+    "static/media/keras.png": "/static/media/keras.10a0bb6cf6d050268f39.png",
+    "static/media/tf.png": "/static/media/tf.a46e8bae031509770b3f.png",
+    "static/media/google maps.png": "/static/media/google maps.be2c9e7194299e6fca7e.png",
+    "static/media/flutter.png": "/static/media/flutter.f87e1e7405d9d3037397.png",
+    "static/media/firebase.png": "/static/media/firebase.5dfee65420e3b5e2148f.png",
+    "static/media/css.jpg": "/static/media/css.f82781bf1de472118d57.jpg",
+    "static/media/html.jpg": "/static/media/html.49f3258384312cd5e13d.jpg",
+    "static/media/numpy.png": "/static/media/numpy.c8422e4f37ac3c3a2011.png",
+    "static/media/climate.jpg": "/static/media/climate.a8d7fa17aabd85f71287.jpg",
+    "static/media/gplaystore.png": "/static/media/gplaystore.f902960a94878ee0da67.png",
+    "static/media/jsonserver.jpg": "/static/media/jsonserver.fd60c24120bd7b8ca3c2.jpg",
+    "index.html": "/index.html",
+    "main.d0d5be2d.css.map": "/static/css/main.d0d5be2d.css.map",
+    "main.3255473a.js.map": "/static/js/main.3255473a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0d5be2d.css",
+    "static/js/main.3255473a.js"
+  ]
+}
