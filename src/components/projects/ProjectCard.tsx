@@ -19,7 +19,7 @@ const ProjectCard: React.FC<IProps> = ({ info }) => {
     const renderCardInfo = () : JSX.Element[] =>{
         return info.map(proj => {
             return (
-                <a className="proj_card" href={proj.link}>
+                <a className="proj_card" target="_blank" href={proj.link}>
                     <div className="card__background" id={proj.background}></div>
                     {/* <div className="card__background" style={{backgroundImage: "url(" + proj.background + ")"}}></div> */}
                     <div className="card__content">

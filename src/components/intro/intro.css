@@ -182,6 +182,9 @@ img{
         flex-direction: column;
         margin-bottom: 50px;
     }
+    .text{
+        margin: 0;
+    }
 
     p{
         width: 90vw;
