@@ -26,11 +26,11 @@ const About = () => {
             <div className="col">
                 <div data-aos="fade-left" data-aos-duration="1500" className="boxed card">
                     <p>
-                        <span className="about-intro">
+                        {/* <span className="about-intro"> */}
                             A keen learner,<br /> 
                             a universe of atoms, <br />
                             atoms of curiosity.
-                        </span>
+                        {/* </span> */}
 
                         I like taking up challenges and try solving them efficiently.
                         The ideation phase of a project excites me the most. <br />
