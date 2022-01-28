@@ -26,27 +26,30 @@ const About = () => {
             <div className="col">
                 <div data-aos="fade-left" data-aos-duration="1500" className="boxed card">
                     <p>
-                        <span>
+                        <span className="about-intro">
                             A keen learner,<br /> 
                             a universe of atoms, <br />
                             atoms of curiosity.
                         </span>
-                        <br /><br />
 
                         I like taking up challenges and try solving them efficiently.
                         The ideation phase of a project excites me the most. <br />
-                        <br />
+                        
                         I also have an inclination towards designing, my taste is minimal. 
                         I try using it for the UI of my projects and 
                         posters for various events I am involved with!
-                        I also love to manage teams. <br />
+                        I also love to manage teams. 
                         <br />
-                        I'm happy to connect and help, book a free 30 min session if you need
-                        guidance, or just a short general discussion session.  <br />
+                        <br />
+                        <br />
 
+                        <i>If you need guidance in interview preparation, resume review 
+                        or simply just have virtual coffee over a tech chitchat or collaborations, 
+                        I'm happy to connect.<br /></i>
                         <div className="button" onClick={() => window.open("https://calendly.com/nitashadhingra/30min")}>
-                            Book a session
+                            Schedule a meet
                         </div>
+                        
                     </p>
                 </div>
             </div>

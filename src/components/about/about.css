@@ -13,6 +13,11 @@
 	align-items: center;
 }
 
+.about-intro{
+	display: flex;
+	flex-direction: column;
+}
+
 .boxed{
 	/* color: white; */
 	border-radius: 25px;
@@ -62,6 +67,8 @@ span{
 	margin-top: 15px;
 	padding: 5px 15px;
 	cursor: pointer;
+    box-shadow: .3rem .3rem .6rem var(--greyLight-2), -.2rem -.2rem .5rem var(--white);
+
 }
 
 
@@ -90,5 +97,3 @@ span{
 		width:75vw
 	}
 }
-
- 
