@@ -25,11 +25,9 @@
 	/* margin-top: 32px; */
 }
 
-/* span{
-	background: -webkit-linear-gradient( 130deg ,#c7666c -32% ,#facc15 201%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-} */
+span{
+	color: #c7666c;
+}
 
 .material-icons{
 	display: inline-block;
