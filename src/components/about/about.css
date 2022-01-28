@@ -25,11 +25,11 @@
 	/* margin-top: 32px; */
 }
 
-span{
+/* span{
 	background: -webkit-linear-gradient( 130deg ,#c7666c -32% ,#facc15 201%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
+} */
 
 .material-icons{
 	display: inline-block;
