@@ -55,7 +55,7 @@ const Resume = () => {
         dates: "2021",
         title: "Student Scholar, Grace Hopper Celebration'21",
         subtitle: "Anita B.Org",
-        description: ""
+        description: "The AnitaB.org global flagship event to highlight contributions of women in computing. Received scholarship to be a part of the Celebration."
       },
       {
         dates: "April 2021 - Sept 2021",
@@ -71,8 +71,8 @@ const Resume = () => {
       },
       {
         dates: "February 2020",
-        title: "Finalist of LeanIn Hackathon",
-        subtitle: "",
+        title: "Finalist",
+        subtitle: "Hackathon by LeanIn IGDTUW",
         description: "Developed a web portal to manage disposal of domestic waste. Designed and developed UI/UX. Only sophomores to have won the Special Mention Award out of 30+ teams."
       },
     ]);
@@ -80,15 +80,15 @@ const Resume = () => {
 
     const [community, setCommunity] = useState([
       {
-        dates: "",
+        dates: "Founded in 2020",
         title: "Co-founder, Protégé",
-        subtitle: "",
-        description: "Providing 1:1 mentorship to college students. 2 successful pilots conducted each with a participation of 200 students."
+        subtitle: "Mentorship Society of IGDTUW",
+        description: "Providing 1:1 mentorship to college students. 2 successful pilots conducted each with a participation of 200 students. Developed a Flutter App, released on Google Play Store and a webapp in ReactJS."
       },
       {
         dates: "March 2020 - March 2021",
-        title: "LeanIN IGDTUW",
-        subtitle:"",
+        title: "LeanIn IGDTUW",
+        subtitle:"Mentor",
         description: "Small groups of women who come together for gaining technical expertise and peer support. Mentored the DSA circle, a batch of 150 female students, helping the women in STEM build their problem solving skills."
       },
       {
@@ -96,6 +96,12 @@ const Resume = () => {
         title: "IEEE IGDTUW",
         subtitle: "Publishing Head",
         description: "Helped organised sessions and conferences on various computing domains and career guidance. Designed and published posters and certificates for various events conducted, designed the annual IEEE brochure and newsletter. Volunteered at the annual, national event DSC 2019 to publish content."
+      },
+      {
+        dates: "2020 - 2021",
+        title: "Innerve IGDTUW",
+        subtitle: "Core Member",
+        description: "Organised annual techfest of IGDTUW, with 30+ events and 2000+ nationwide participation. Led a team of 30 students to manage the human resources needed."
       },
     ]);
 

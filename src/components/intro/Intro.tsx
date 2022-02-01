@@ -1,4 +1,6 @@
+// import pfp from "../../img/notion avatar.svg";
 import pfp from "../../img/me.png";
+
 import './intro.css';
 
 import { useEffect } from "react";
