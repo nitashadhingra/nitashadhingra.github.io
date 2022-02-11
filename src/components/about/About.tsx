@@ -33,13 +33,18 @@ const About = () => {
                         </span>
                         <br />
 
-                        I like taking up challenges and try solving them efficiently.
+                        My adrenaline rush comes from taking up challenges 
+                        and solving them efficiently.
                         The ideation phase of a project excites me the most. <br />
                         
-                        I also have an inclination towards designing, my taste is minimal. 
-                        I try using it for the UI of my projects and 
+                        I have an inclination towards designing, 
+                        my taste is minimal, 
+                        which I use for the UI of my projects and 
                         posters for various events I am involved with!
-                        I also love to manage teams. 
+                        I also enjoy collaborating and look forward to 
+                        
+                        fun and productive
+                        social engagements on the way. 
                         <br />
                         <br />
                         <br />
