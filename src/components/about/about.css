@@ -36,7 +36,8 @@ span{
 	margin-right: 15px;
 	/* flex: 1; */
 	padding: 10px;
-	
+	height: 27px;
+	width: 27px;
 	border-radius: 50%;
     box-shadow: .3rem .3rem .5rem #e2e3e5, -.2rem -.2rem .5rem #f3f4f5;
 	/* box-shadow: inset -2px -2px 4px 1px #000, inset 3px 3px 4px 1px #4d4d4d; */
