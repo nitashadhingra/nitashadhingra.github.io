@@ -1,5 +1,5 @@
 // import pfp from "../../img/notion avatar.svg";
-import pfp from "../../img/me.png";
+import pfp from "../../img/me.jpg";
 
 import './intro.css';
 
@@ -24,10 +24,11 @@ const Intro = () => {
             </div>
             <div className="text">
                 <p id="name">Nitasha <strong>Dhingra</strong></p>
-                <p className="title">Software Engineer</p>
+                <p className="title">Your local fun nerd ♡</p>
 
-                <p>Your local fun nerd ♡ <br /> A logical and creative thinker, I love solving problems. <br />   
-                    Web and flutter developer.</p>
+                <p>  A logical and creative thinker, I love solving problems. <br />   
+                    Machine learning practitioner, <br />web and flutter developer.</p>
+                    
                 
                 <div className="socials">
                     <hr></hr>

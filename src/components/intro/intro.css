@@ -46,7 +46,8 @@ hr{
     stroke: #7dcbd8;
 }
 .socials div{
-    padding-top: 5px;
+    height: 100%;
+    margin-top: 6px;
 }
 .socials a{
     color: black;
@@ -194,11 +195,16 @@ img{
 
     .socials{
         margin-top: 20px;
+        padding-bottom: 7vh;
     }
 
     hr{
         width: 80px;
         margin: 15px 10px 10px 10px;
+    }
+
+    .circle__btn {
+        margin:0;
     }
     
     .circle {

@@ -32,7 +32,7 @@ span{
 .material-icons{
 	display: inline-block;
 
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	margin-right: 15px;
 	/* flex: 1; */
 	padding: 10px;
@@ -68,6 +68,24 @@ span{
 	cursor: pointer;
     box-shadow: .3rem .3rem .6rem var(--greyLight-2), -.2rem -.2rem .5rem var(--white);
 
+}
+
+
+.hobbies {
+	padding-bottom: 20px;;
+}
+
+.popped{
+	color:whitesmoke;
+	background-color: rgba(24, 24, 24, 0.747);
+	border-radius: 4px;
+	padding: 4px 6px;
+	margin-top: 6px;
+	max-width: 85px;
+	font-size: 12px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 
 
