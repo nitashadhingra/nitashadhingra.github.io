@@ -29,6 +29,12 @@ const Resume = () => {
 
   const [experience, setExperience] = useState([
       {
+        dates: "July 2022 - Present",
+        title: "Software Engineer",
+        subtitle: "Google",
+        description: "Database Observability - worked on a Monitoring API service for fetching stats to monitor database. Built a SQL query generator to build an executable SQL query."
+      },
+      {
         dates: "June 2021 - July 2021",
         title: "Summer Analyst",
         subtitle: "Goldman Sachs, Bengaluru",
